@@ -1,6 +1,6 @@
 # Photometric Stereo Imaging for Detecting Surface Defects
 **Author:** David Wu \
-**Last Updated:** 10/29/2025 \
+**Last Updated:** 11/1/2025 \
 Applies photometric stereo to detect surface defects by computing surface normals.
 
 **Future Directions:** Train classifier to perform classification on different types of surface flaws, e.g., bumps vs. indentations vs. creases.
@@ -28,7 +28,7 @@ conda activate photometric-stereo
 
 cd photometric-stereo
 
-python photometric-stereo.py <path/to/image_directory> <path/to/light_direction_matrix_file>
+python photometric-stereo.py -i <path/to/image_directory> -l <path/to/light_direction_matrix_file> -o <prefix_write_file>
 ```
 
 ### Expected Input
