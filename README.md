@@ -28,7 +28,7 @@ conda activate photometric-stereo
 
 cd photometric-stereo
 
-python photometric-stereo.py -i <path/to/image_directory> -l <path/to/light_direction_matrix_file> -o <prefix_write_file>
+python src/photometric-stereo.py -i <path/to/image_directory> -l <path/to/light_direction_matrix_file> -o <prefix_write_file>
 ```
 
 ### Expected Input
